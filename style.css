@@ -201,10 +201,15 @@ header h4 span {
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
+.errorOutput {
+    text-align: center;
+}
+
 h4 {
     margin: 20px 0px;
     font-style: italic;
     color: slategray;
+    text-align: center;
 }
 
 
