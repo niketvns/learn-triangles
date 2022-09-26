@@ -50,12 +50,16 @@ nav h1 {
     font-weight: bolder;
 }
 
-header {
+.quiz-header {
     margin: 20px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+header {
+    min-height: 70vh;
 }
 
 form {
@@ -72,7 +76,7 @@ header h1 {
     color: slateblue;
 }
 
-header h4 {
+.instruction {
     text-align: center;
     margin: 20px 10px;
     color: green;
@@ -218,6 +222,17 @@ h4 {
     font-style: italic;
     color: slategray;
     text-align: center;
+}
+
+footer {
+    height: 15vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
 }
 
 
