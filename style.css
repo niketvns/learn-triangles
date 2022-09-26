@@ -58,6 +58,14 @@ header {
     align-items: center;
 }
 
+form {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header h1 {
     text-align: center;
     margin: 20px;
