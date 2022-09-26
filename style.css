@@ -101,6 +101,7 @@ header h4 span {
 }
 
 .button {
+    margin: auto;
     display: none;
     font-size: 1.3rem;
     background-color: gray;
@@ -121,4 +122,23 @@ header h4 span {
 .op input,
 .op label {
     cursor: pointer;
+}
+
+#score {
+    margin: 20px 0px;
+    text-align: center;
+    color: green;
+}
+
+.op-score {
+    color: red;
+}
+
+.correct {
+    color: green;
+    font-weight: bolder;
+}
+
+.result-header {
+    display: none;
 }

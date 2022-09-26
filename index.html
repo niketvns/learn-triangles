@@ -19,172 +19,374 @@
             <span>Area</span>
         </div>
     </nav>
-    <header>
+    <header class="quiz-header">
         <h1>Quiz on Triangles</h1>
         <h4><span>Instructions:</span> In this quiz there are total 10 Questions, For each correct answer you will be
             awarded by +1 Marks</h4>
-        <div class="questions">
-            <div class="q1 que">
-                <p>Q.1 - What is the third angle for the triangle, where angle-1 = 45° and angle-2 = 45° ?</p>
-                <div class="options">
-                    <div class="op">
-                        <input type="radio" name="q1" id="q1o1" value="45">
-                        <label for="q1o1">45°</label>
+
+        <form class="quiz-form" action="">
+            <div class="questions">
+                <div class="q1 que">
+                    <p>Q.1 - What is the third angle for the triangle, where angle-1 = 45° and angle-2 = 45° ?</p>
+                    <div class="options">
+                        <div class="op">
+                            <input class="q1-option" type="radio" name="q1" id="q1o1" value="45">
+                            <label for="q1o1">45°</label>
+                        </div>
+                        <div class="op">
+                            <input class="q1-option" type="radio" name="q1" id="q1o2" value="90">
+                            <label for="q1o2">90°</label>
+                        </div>
+                        <div class="op">
+                            <input class="q1-option" type="radio" name="q1" id="q1o3" value="60">
+                            <label for="q1o3">60°</label>
+                        </div>
                     </div>
-                    <div class="op">
-                        <input type="radio" name="q1" id="q1o2">
-                        <label for="q1o2">90°</label>
+                </div>
+                <div class="q2 que">
+                    <p>Q.2 - What is the third angle for the triangle, where angle-1 = 45° and
+                        angle-2 = 45° ?</p>
+                    <div class="options">
+                        <div class="op">
+                            <input type="radio" name="q2" id="q2o1" value="obtuse">
+                            <label for="q2o1">Obtuse</label>
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="q2" id="q2o2" value="acute">
+                            <label for="q2o2">Acute</label>
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="q2" id="q2o3" value="right angle">
+                            <label for="q2o3">Right Angle</label>
+                        </div>
                     </div>
-                    <div class="op">
-                        <input type="radio" name="q1" id="q1o3">
-                        <label for="q1o3">60°</label>
+                </div>
+                <div class="q3 que">
+                    <p>Q.3 - A triangle can have ?</p>
+                    <div class="options">
+                        <div class="op"><input type="radio" name="q3" id="q3o1" value="one right angle">
+                            <label for="q3o1">One Right Angle</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q3" id="q3o2" value="two right angle">
+                            <label for="q3o2">Two Right Angle</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q3" id="q3o3" value="three right angle">
+                            <label for="q3o3">Three Right Angle</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q4 que">
+                    <p>Q.4 - Which of the following can form a Right Angle Triangle ?</p>
+                    <div class="options">
+                        <div class="op"><input type="radio" name="q4" id="q4o1" value="14,15,26">
+                            <label for="q4o1">14,15,26</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q4" id="q4o2" value="10,11,12">
+                            <label for="q4o2">10,11,12</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q4" id="q4o3" value="12,16,20">
+                            <label for="q4o3">12,16,20</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q5 que">
+                    <p>Q.5 - Which of the following Triangles are always similar ?</p>
+                    <div class="options">
+                        <div class="op"><input type="radio" name="q5" id="q5o1" value="equilateral triangle">
+                            <label for="q5o1">Equilateral Triangle</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q5" id="q5o2" value="isosceles triangle">
+                            <label for="q5o2">Isosceles Triangle</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q5" id="q5o3" value="right angle triangle">
+                            <label for="q5o3">Right Angle Triangle</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q6 que">
+                    <p>Q.6 - If one angle of a triangle is obtuse, then which one the following is
+                        the possible measure of
+                        remaining angles ?</p>
+                    <div class="options">
+                        <div class="op"><input type="radio" name="q6" id="q6o1" value="100">
+                            <label for="q6o1">100°</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q6" id="q6o2" value="120">
+                            <label for="q6o2">120°</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q6" id="q6o3" value="85">
+                            <label for="q6o3">85°</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q7 que">
+                    <p>Q.7 - If the largest angle in a triangle is 70°, which is the least possible
+                        value of the smallest
+                        angle of the triangle?</p>
+                    <div class="options">
+                        <div class="op"><input type="radio" name="q7" id="q7o1" value="30">
+                            <label for="q7o1">30°</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q7" id="q7o2" value="10">
+                            <label for="q7o2">10°</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q7" id="q7o3" value="60">
+                            <label for="q7o3">60°</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q8 que">
+                    <p>Q.8 - The perimeter of scalene triangle with sides a, b, c is ?</p>
+                    <div class="options">
+                        <div class="op"><input type="radio" name="q8" id="q8o1" value="a+b+c">
+                            <label for="q8o1">a + b + c</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q8" id="q8o2" value="2a">
+                            <label for="q8o2">2a</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q8" id="q8o3" value="none">
+                            <label for="q8o3">none of these</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q9 que">
+                    <p>Q.9 - A Scalene triangle has _____ lines of symmetry ?</p>
+                    <div class="options">
+                        <div class="op"><input type="radio" name="q9" id="q9q10o1" value="two">
+                            <label for="q9q10o1">two</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q9" id="q9q10o2" value="no">
+                            <label for="q9q10o2">no</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q9" id="q9q10o3" value="15">
+                            <label for="q9q10o3">15</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q10 que">
+                    <p>Q.10 - There is a right angle triangle PQR where ∠Q = 90&deg;, ∠P = ∠R. What
+                        is the measure of angles
+                        P and R ?</p>
+                    <div class="options">
+                        <div class="op"><input type="radio" name="q10" id="q10o1" value="85">
+                            <label for="q10o1">85°</label>
+                        </div>
+                        <div class="op">
+                            <input type="radio" name="q10" id="q10o2" value="65">
+                            <label for="q10o2">65°</label>
+                        </div>
+                        <div class="op"><input type="radio" name="q10" id="q10o3" value="45">
+                            <label for="q10o3">45°</label>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="q2 que">
-                <p>Q.2 - What is the third angle for the triangle, where angle-1 = 45° and
-                    angle-2 = 45° ?</p>
-                <div class="options">
-                    <div class="op">
-                        <input type="radio" name="q2" id="q2o1" value="45">
-                        <label for="q2o1">Obtuse</label>
-                    </div>
-                    <div class="op">
-                        <input type="radio" name="q2" id="q2o2">
-                        <label for="q2o2">Acute</label>
-                    </div>
-                    <div class="op">
-                        <input type="radio" name="q2" id="q2o3">
-                        <label for="q2o3">Right Angle</label>
-                    </div>
-                </div>
+
+            <div class="declare">
+                <input type="checkbox" name="declare" id="declare" value="declared">
+                <p>I have Completed the Test, now I want to Submit it. </p>
+
             </div>
-            <div class="q3 que">
-                <p>Q.3 - A triangle can have ?</p>
-                <div class="options">
-                    <div class="op"><input type="radio" name="q3" id="q3o1" value="45">
-                        <label for="q3o1">One Right Angle</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q3" id="q3o2">
-                        <label for="q3o2">Two Right Angle</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q3" id="q3o3">
-                        <label for="q3o3">Three Right Angle</label>
-                    </div>
-                </div>
-            </div>
-            <div class="q4 que">
-                <p>Q.4 - Which of the following can form a Right Angle Triangle ?</p>
-                <div class="options">
-                    <div class="op"><input type="radio" name="q4" id="q4o1" value="45">
-                        <label for="q4o1">14,15,26</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q4" id="q4o2">
-                        <label for="q4o2">10,11,12</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q4" id="q4o3">
-                        <label for="q4o3">12,16,20</label>
-                    </div>
-                </div>
-            </div>
-            <div class="q5 que">
-                <p>Q.5 - Which of the following Triangles are always similar ?</p>
-                <div class="options">
-                    <div class="op"><input type="radio" name="q5" id="q5o1" value="45">
-                        <label for="q5o1">Equilateral Triangle</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q5" id="q5o2">
-                        <label for="q5o2">Isosceles Triangle</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q5" id="q5o3">
-                        <label for="q5o3">Right Angle</label>
-                    </div>
-                </div>
-            </div>
-            <div class="q6 que">
-                <p>Q.6 - If one angle of a triangle is obtuse, then which one the following is
-                    the possible measure of
-                    remaining angles ?</p>
-                <div class="options">
-                    <div class="op"><input type="radio" name="q6" id="q6o1" value="45">
-                        <label for="q6o1">100°</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q6" id="q6o2">
-                        <label for="q6o2">120°</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q6" id="q6o3">
-                        <label for="q6o3">85°</label>
-                    </div>
-                </div>
-            </div>
-            <div class="q7 que">
-                <p>Q.7 - If the largest angle in a triangle is 70°, which is the least possible
-                    value of the smallest
-                    angle of the triangle?</p>
-                <div class="options">
-                    <div class="op"><input type="radio" name="q7" id="q7o1" value="45">
-                        <label for="q7o1">30°</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q7" id="q7o2">
-                        <label for="q7o2">10°</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q7" id="q7o3">
-                        <label for="q7o3">60°</label>
-                    </div>
-                </div>
-            </div>
-            <div class="q8 que">
-                <p>Q.8 - The perimeter of scalene triangle with sides a, b, c is ?</p>
-                <div class="options">
-                    <div class="op"><input type="radio" name="q8" id="q8o1" value="45">
-                        <label for="q8o1">a + b + c</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q8" id="q8o2">
-                        <label for="q8o2">2a</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q8" id="q8o3">
-                        <label for="q8o3">none of these</label>
-                    </div>
-                </div>
-            </div>
-            <div class="q9 que">
-                <p>Q.9 - A Scalene triangle has _____ lines of symmetry ?</p>
-                <div class="options">
-                    <div class="op"><input type="radio" name="q9" id="q9q10o1" value="45">
-                        <label for="q9q10o1">two</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q9" id="q9q10o2">
-                        <label for="q9q10o2">no</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q9" id="q9q10o3">
-                        <label for="q9q10o3">15</label>
-                    </div>
-                </div>
-            </div>
-            <div class="q10 que">
-                <p>Q.10 - There is a right angle triangle PQR where ∠Q = 90&deg;, ∠P = ∠R. What
-                    is the measure of angles
-                    P and R ?</p>
-                <div class="options">
-                    <div class="op"><input type="radio" name="q10" id="q10o1" value="45">
-                        <label for="q10o1">85°</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q10" id="q10o2">
-                        <label for="q10o2">65°</label>
-                    </div>
-                    <div class="op"><input type="radio" name="q10" id="q10o3">
-                        <label for="q10o3">45°</label>
-                    </div>
-                </div>
-            </div>
+            <input class="button" type="button" value="Submit Answer">
+        </form>
+
+    </header>
+
+
+    <header class="result-header">
+        <h1 id="showScore">Result</h1>
+
+        <div>
+            <h2 id="score"> </h2>
         </div>
 
-        <div class="declare">
-            <input type="checkbox" name="declare" id="declare" value="declared">
-            <p>I have Completed the Test, now I want to Submit it. </p>
+        <h1>Solution</h1>
 
-        </div>
-        <input class="button" type="button" disabled value="Submit Answer">
+        <form>
+            <div class="questions">
+                <div class="q1 que">
+                    <p>Q.1 - What is the third angle for the triangle, where angle-1 = 45° and angle-2 = 45° ?</p>
+                    <div class="options">
+                        <div class="op-score">
+                            <input class="q1-option" disabled type="radio" name="q1" id="q1o1" value="45">
+                            <label for="q1o1">45°</label>
+                        </div>
+                        <div class="op-score correct">
+                            <input class="q1-option" checked type="radio" name="q1" id="q1o2" value="90">
+                            <label for="q1o2">90°</label>
+                        </div>
+                        <div class="op-score">
+                            <input class="q1-option" disabled type="radio" name="q1" id="q1o3" value="60">
+                            <label for="q1o3">60°</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q2 que">
+                    <p>Q.2 - What is the third angle for the triangle, where angle-1 = 45° and
+                        angle-2 = 45° ?</p>
+                    <div class="options">
+                        <div class="op-score">
+                            <input type="radio" disabled name="q2" id="q2o1" value="obtuse">
+                            <label for="q2o1">Obtuse</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q2" id="q2o2" value="acute">
+                            <label for="q2o2">Acute</label>
+                        </div>
+                        <div class="op-score correct">
+                            <input type="radio" checked name="q2" id="q2o3" value="right angle">
+                            <label for="q2o3">Right Angle</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q3 que">
+                    <p>Q.3 - A triangle can have ?</p>
+                    <div class="options">
+                        <div class="op-score correct">
+                            <input type="radio" checked name="q3" id="q3o1" value="one right angle">
+                            <label for="q3o1">One Right Angle</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q3" id="q3o2" value="two right angle">
+                            <label for="q3o2">Two Right Angle</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q3" id="q3o3" value="three right angle">
+                            <label for="q3o3">Three Right Angle</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q4 que">
+                    <p>Q.4 - Which of the following can form a Right Angle Triangle ?</p>
+                    <div class="options">
+                        <div class="op-score">
+                            <input type="radio" disabled name="q4" id="q4o1" value="14,15,26">
+                            <label for="q4o1">14,15,26</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q4" id="q4o2" value="10,11,12">
+                            <label for="q4o2">10,11,12</label>
+                        </div>
+                        <div class="op-score correct">
+                            <input type="radio" checked name="q4" id="q4o3" value="12,16,20">
+                            <label for="q4o3">12,16,20</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q5 que">
+                    <p>Q.5 - Which of the following Triangles are always similar ?</p>
+                    <div class="options">
+                        <div class="op-score correct">
+                            <input type="radio" checked name="q5" id="q5o1" value="equilateral triangle">
+                            <label for="q5o1">Equilateral Triangle</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q5" id="q5o2" value="isosceles triangle">
+                            <label for="q5o2">Isosceles Triangle</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q5" id="q5o3" value="right angle triangle">
+                            <label for="q5o3">Right Angle Triangle</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q6 que">
+                    <p>Q.6 - If one angle of a triangle is obtuse, then which one the following is
+                        the possible measure of
+                        remaining angles ?</p>
+                    <div class="options">
+                        <div class="op-score correct">
+                            <input type="radio" checked name="q6" id="q6o1" value="100">
+                            <label for="q6o1">100°</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q6" id="q6o2" value="120">
+                            <label for="q6o2">120°</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q6" id="q6o3" value="85">
+                            <label for="q6o3">85°</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q7 que">
+                    <p>Q.7 - If the largest angle in a triangle is 70°, which is the least possible
+                        value of the smallest
+                        angle of the triangle?</p>
+                    <div class="options">
+                        <div class="op-score correct">
+                            <input type="radio" checked name="q7" id="q7o1" value="30">
+                            <label for="q7o1">30°</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q7" id="q7o2" value="10">
+                            <label for="q7o2">10°</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q7" id="q7o3" value="60">
+                            <label for="q7o3">60°</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q8 que">
+                    <p>Q.8 - The perimeter of scalene triangle with sides a, b, c is ?</p>
+                    <div class="options">
+                        <div class="op-score correct">
+                            <input type="radio" checked name="q8" id="q8o1" value="a+b+c">
+                            <label for="q8o1">a + b + c</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q8" id="q8o2" value="2a">
+                            <label for="q8o2">2a</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q8" id="q8o3" value="none">
+                            <label for="q8o3">none of these</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q9 que">
+                    <p>Q.9 - A Scalene triangle has _____ lines of symmetry ?</p>
+                    <div class="options">
+                        <div class="op-score">
+                            <input type="radio" disabled name="q9" id="q9q10o1" value="two">
+                            <label for="q9q10o1">two</label>
+                        </div>
+                        <div class="op-score correct">
+                            <input type="radio" checked name="q9" id="q9q10o2" value="no">
+                            <label for="q9q10o2">no</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q9" id="q9q10o3" value="15">
+                            <label for="q9q10o3">15</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="q10 que">
+                    <p>Q.10 - There is a right angle triangle PQR where ∠Q = 90&deg;, ∠P = ∠R. What
+                        is the measure of angles
+                        P and R ?</p>
+                    <div class="options">
+                        <div class="op-score">
+                            <input type="radio" disabled name="q10" id="q10o1" value="85">
+                            <label for="q10o1">85°</label>
+                        </div>
+                        <div class="op-score">
+                            <input type="radio" disabled name="q10" id="q10o2" value="65">
+                            <label for="q10o2">65°</label>
+                        </div>
+                        <div class="op-score correct">
+                            <input type="radio" checked name="q10" id="q10o3" value="45">
+                            <label for="q10o3">45°</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 id="score"></h3>
+            </div>
+
     </header>
 
 
