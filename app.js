@@ -3,7 +3,8 @@ var button = document.querySelector(".button");
 var quizForm = document.querySelector(".quiz-form");
 var score_html = document.querySelector("#score");
 var resultHeader = document.querySelector(".result-header")
-var quizHeader = document.querySelector(".quiz-header")
+var quizHeader = document.querySelector(".quiz-header");
+
 
 
 const correctAnswer = [
@@ -53,3 +54,4 @@ function calculateScore() {
 
     score_html.innerHTML = "Your Score: " + score + "/10";
 }
+
