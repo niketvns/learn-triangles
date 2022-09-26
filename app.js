@@ -48,7 +48,7 @@ function calculateScore() {
         index = index + 1;
     }
 
-    resultHeader.style.display = "contents";
+    resultHeader.style.display = "block";
     quizHeader.style.display = "none";
 
     score_html.innerHTML = "Your Score: " + score + "/10";
