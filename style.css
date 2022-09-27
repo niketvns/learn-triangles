@@ -228,6 +228,10 @@ h2.solution-heading {
     text-align: center;
 }
 
+.out-text {
+    color: rgb(179, 175, 175);
+}
+
 h4 {
     margin: 20px 0px;
     font-style: italic;
