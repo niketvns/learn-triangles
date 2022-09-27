@@ -105,9 +105,11 @@ header h4 span {
 .options {
     max-width: 800px;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 20px 0px;
+    align-items: flex-start;
+    margin: 20px 0px 0px 60px;
 }
 
 .op input,
