@@ -18,6 +18,7 @@ function calculateArea() {
         errorOutput.style.color = "Red";
     } else {
         var area = Math.sqrt(squreArea)
+        errorOutput.innerHTML = ""
         areaOutput.innerHTML = "Area: " + area.toFixed(2)
         areaOutput.style.color = "Green";
     }
