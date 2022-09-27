@@ -93,7 +93,7 @@ header h4 span {
 .questions {
     max-width: 1000px;
     text-align: left;
-    font-size: large;
+    font-size: 1.2rem;
     margin: 0px 20px;
     line-height: 30px;
 }
