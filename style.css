@@ -230,6 +230,8 @@ h2.solution-heading {
 
 .out-text {
     color: rgb(179, 175, 175);
+    text-align: center;
+    margin: 0px 10px;
 }
 
 h4 {
