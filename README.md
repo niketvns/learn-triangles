@@ -8,8 +8,7 @@ This app has 4 Section <br/>
 4. Calculate Area
 
 
-## [LIVE](https://learn-triangles-by-niket.netlify.app/)
-
+## [LIVE]
 ---
 
 ![Demo](/icons/angle-ss.png)
